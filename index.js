@@ -24,7 +24,7 @@ function createTimeInEvent(employee, timeStamp){
     employee.timeInEvents.push({
         type: "TimeIn",
         hour: Number(hour),
-        date,
+        date: date
     })
     return employee
 }
